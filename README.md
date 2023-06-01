@@ -10,13 +10,12 @@ This tutorial series is meant to help you get started with OBS plugin developmen
 - [obs-studio](https://obsproject.com/download) 28.0.0 or later
 
 ## Parts of the Workshop
-- [Part 1: Getting Started: Parts of the code and Builing](./part1/README.md) [ ] Status - In Progress
+- [Part 1: Getting Started: Parts of the code and Building](./part1/README.md) [ ] Status - In Progress
 - [Part 2: Adding a Source](./part2/README.md) [ ] Status - In Progress
 - [Part 3: Adding an Effect Filter](./part3/README.md) [ ] Status - In Progress
 - [Part 4: Adding a Video Render Filter](./part4/README.md) [ ] Status - In Progress
 - [Part 5: Adding a Video Transition](./part5/README.md) [ ] Status - In Progress
-- [Part 6: Adding a Video Converter](./part6/README.md) [ ] Status - In Progress
-- [Part 7: Adding an Audio filter](./part7/README.md) [ ] Status - In Progress
+- [Part 6: Adding an Audio filter](./part6/README.md) [ ] Status - In Progress
 
 ## Building
 All of the parts of this workshop are built using a single CMake project. The project is configured using a `buildspec.json` file. This file contains the name and version of the plugin as well as the version of obs-studio to use and the pre-built dependencies for Windows and macOS.
